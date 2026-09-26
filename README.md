@@ -144,8 +144,7 @@ The complete hash was copied for use with John the Ripper.
 
 ### Screenshot — Extracted Hash
 
-> `<img width="1103" height="387" alt="image" src="https://github.com/user-attachments/assets/01b0c448-5743-47a1-818b-02f5884ce21f" />
-`
+<img width="1103" height="387" alt="image" src="https://github.com/user-attachments/assets/01b0c448-5743-47a1-818b-02f5884ce21f" />
 
 > **Important:** The complete hash must be copied without accidentally removing any part of the value.
 
@@ -158,33 +157,17 @@ A text file was created using Notepad to store the extracted PDF hash.
 The file was saved as:
 
 ```text
-hash1.txt
+pdf1_hashes.txt
 ```
 
 The hash was stored in the text file in the format required by John the Ripper.
 
-### Screenshot — Hash in Notepad
-
-> 📸 **Screenshot Placeholder:**
-> `![Hash in Notepad](screenshots/task1/08-hash-notepad.png)`
-
-### Screenshot — Saving hash1.txt
-
-> 📸 **Screenshot Placeholder:**
-> `![Saving Hash File](screenshots/task1/09-save-hash-file.png)`
-
----
 
 ## 7. Open Hash File in Johnny
 
 Johnny was opened again and the saved hash file was loaded using the **Open Password File** option.
 
-### Screenshot — Open Password File
 
-> 📸 **Screenshot Placeholder:**
-> `![Open Password File](screenshots/task1/10-open-password-file.png)`
-
----
 
 ## 8. Start Password Attack
 
@@ -192,12 +175,6 @@ After loading the hash file, a new password-cracking attack was started.
 
 Johnny then used John the Ripper to attempt to crack the password represented by the PDF hash.
 
-### Screenshot — Starting Attack
-
-> 📸 **Screenshot Placeholder:**
-> `![Start New Attack](screenshots/task1/11-start-attack.png)`
-
----
 
 ## 9. Password cracked
 
@@ -205,14 +182,15 @@ The password was successfully cracked by the cracking process.
 
 ### Screenshot — cracked Password
 
-> 📸 **Screenshot Placeholder:**
-> `![cracked Password](screenshots/task1/12-cracked-password.png)`
+<img width="720" height="635" alt="image" src="https://github.com/user-attachments/assets/884c519d-4aae-4668-8659-94d6efa5a27b" />
+
 
 The cracked password was:
 
 ```text
-password1
+good-luck
 ```
+<img width="804" height="587" alt="image" src="https://github.com/user-attachments/assets/2c5be0ac-0a33-4355-91c5-6a0e0f441b83" />
 
 ---
 
@@ -222,15 +200,14 @@ The cracked password was entered into the protected PDF.
 
 ### Screenshot — Entering cracked Password
 
-> 📸 **Screenshot Placeholder:**
-> `![Enter PDF Password](screenshots/task1/13-enter-password.png)`
+
 
 The PDF opened successfully after entering the cracked password.
 
 ### Screenshot — Successfully Opened PDF
 
-> 📸 **Screenshot Placeholder:**
-> `![Opened PDF](screenshots/task1/14-opened-pdf.png)`
+<img width="820" height="581" alt="image" src="https://github.com/user-attachments/assets/455d1658-677e-4314-8c48-b939962fa9e2" />
+
 
 ### ✅ Task 1 Result
 
@@ -265,13 +242,9 @@ Open PDF
 The same lab PDF was obtained from the Networkwalks project task page.
 
 ```text
-My Locked PDF1.pdf
+My Locked PDF2.pdf
 ```
 
-### Screenshot — Downloaded PDF
-
-> 📸 **Screenshot Placeholder:**
-> `![Networkwalks PDF](screenshots/task2/01-locked-pdf.png)`
 
 ---
 
@@ -281,21 +254,10 @@ The **Networkwalks Hash Calculator** was opened in a web browser.
 
 The tool was used to extract the password hash from the protected PDF.
 
-### Screenshot — Hash Calculator
-
-> 📸 **Screenshot Placeholder:**
-> `![Hash Calculator](screenshots/task2/02-hash-calculator.png)`
-
----
 
 ## 3. Upload the PDF
 
 The protected PDF was uploaded to the Hash Calculator.
-
-### Screenshot — Uploading PDF
-
-> 📸 **Screenshot Placeholder:**
-> `![Upload PDF](screenshots/task2/03-upload-pdf.png)`
 
 ---
 
@@ -306,13 +268,13 @@ After processing the PDF, the Hash Calculator displayed the PDF password hash.
 The hash started with:
 
 ```text
-$pdf$
+$pdf$4*4*128*-1028*1*16*0853f2cde0ef15b1c0f93ed229d3b1ad*32*8f13ce5aa39ad974364d36a057da76790021446990b9e4114071a4d9104984c1*32*ceecdac74b19b5a62688d3b3524e1374c955cbb9cc3c45316494d9446ef81af1
 ```
 
 ### Screenshot — Generated PDF Hash
 
-> 📸 **Screenshot Placeholder:**
-> `![Generated Hash](screenshots/task2/04-generated-hash.png)`
+<img width="976" height="566" alt="image" src="https://github.com/user-attachments/assets/5374dfb3-bbb7-48a2-bcd5-b479f173646a" />
+
 
 The complete hash was copied for the next stage.
 
@@ -322,10 +284,6 @@ The complete hash was copied for the next stage.
 
 The **Networkwalks Password Cracker** was opened in the browser.
 
-### Screenshot — Password Cracker
-
-> 📸 **Screenshot Placeholder:**
-> `![Password Cracker](screenshots/task2/05-password-cracker.png)`
 
 ---
 
@@ -333,10 +291,6 @@ The **Networkwalks Password Cracker** was opened in the browser.
 
 The extracted PDF hash was pasted into the Password Cracker.
 
-### Screenshot — Hash Submitted
-
-> 📸 **Screenshot Placeholder:**
-> `![Hash Submitted](screenshots/task2/06-hash-submitted.png)`
 
 ---
 
@@ -346,10 +300,6 @@ The password-cracking process was started.
 
 The tool attempted different password candidates until the correct password was identified.
 
-### Screenshot — Cracking Process
-
-> 📸 **Screenshot Placeholder:**
-> `![Cracking Process](screenshots/task2/07-cracking-process.png)`
 
 ---
 
@@ -359,8 +309,8 @@ The password was successfully cracked.
 
 ### Screenshot — Cracked Password
 
-> 📸 **Screenshot Placeholder:**
-> `![Cracked Password](screenshots/task2/08-cracked-password.png)`
+<img width="1112" height="570" alt="image" src="https://github.com/user-attachments/assets/d78c7724-0ae2-49c4-a602-80d651807b3a" />
+
 
 The cracked password was:
 
@@ -376,15 +326,14 @@ The cracked password was entered into the protected PDF.
 
 ### Screenshot — Enter Password
 
-> 📸 **Screenshot Placeholder:**
-> `![Enter Password](screenshots/task2/09-enter-password.png)`
+<img width="1119" height="603" alt="image" src="https://github.com/user-attachments/assets/f8a68708-525c-4c68-873d-0ef940700e65" />
+
 
 The PDF opened successfully.
 
 ### Screenshot — Successfully Opened PDF
+<img width="1083" height="583" alt="image" src="https://github.com/user-attachments/assets/423ce86a-2d43-4750-aab9-46cbfcb9b2de" />
 
-> 📸 **Screenshot Placeholder:**
-> `![Opened PDF](screenshots/task2/10-opened-pdf.png)`
 
 ### ✅ Task 2 Result
 
@@ -506,43 +455,7 @@ Based on the lab results, the following password-security practices are recommen
 
 ---
 
-# 📸 Evidence
 
-Screenshots documenting the completed lab are organized into the following directories:
-
-```text
-screenshots/
-│
-├── task1/
-│   ├── 01-john-download.png
-│   ├── 02-johnny-installation.png
-│   ├── 03-johnny-interface.png
-│   ├── 04-select-john-exe.png
-│   ├── 05-locked-pdf.png
-│   ├── 06-pdf-upload.png
-│   ├── 07-pdf-hash.png
-│   ├── 08-hash-notepad.png
-│   ├── 09-save-hash-file.png
-│   ├── 10-open-password-file.png
-│   ├── 11-start-attack.png
-│   ├── 12-cracked-password.png
-│   ├── 13-enter-password.png
-│   └── 14-opened-pdf.png
-│
-└── task2/
-    ├── 01-locked-pdf.png
-    ├── 02-hash-calculator.png
-    ├── 03-upload-pdf.png
-    ├── 04-generated-hash.png
-    ├── 05-password-cracker.png
-    ├── 06-hash-submitted.png
-    ├── 07-cracking-process.png
-    ├── 08-cracked-password.png
-    ├── 09-enter-password.png
-    └── 10-opened-pdf.png
-```
-
----
 
 # ✅ Final Results
 
